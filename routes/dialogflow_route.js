@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 
-const CONTROLLER = require('../controller/export_controller');
+const CONTROLLER = require('../controllers/export_controller');
 
 router.post('/dialogflow', async (req, res) => {
 
